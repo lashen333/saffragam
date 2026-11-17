@@ -6,21 +6,21 @@ const collection = [
   {
     name: "Sapphires",
     description: "From deep blue to soft cornflower.",
-    image: "/images/blue-pendant.jpg",
+    image: "/images/2.jpg",
     alt: "Blue gemstone pendant in warm natural light",
     imagePosition: "center 42%",
   },
   {
     name: "Colour stones",
     description: "Distinctive colours, each with its own character.",
-    image: "/images/wearing-pendant.jpg",
+    image: "/images/1.jpg",
     alt: "A delicate pendant worn in a relaxed, everyday setting",
     imagePosition: "center 45%",
   },
   {
     name: "Special finds",
     description: "For when you have something particular in mind.",
-    image: "/images/ring-detail.jpg",
+    image: "/images/3.jpg",
     alt: "Close detail of a carefully set gemstone ring",
     imagePosition: "center 52%",
   },
@@ -89,7 +89,7 @@ export default function Home() {
         <div className={styles.sectionHeading}>
           <div>
             <p className={styles.eyebrow}>A FEW PLACES TO START</p>
-            <h2>There&apos;s a stone<br />for <em>every story.</em></h2>
+            <h2>Every stone<br />has <em> a story.</em></h2>
           </div>
           <p className={styles.sectionIntro}>
             We believe choosing a gemstone should feel personal, not
@@ -162,7 +162,7 @@ export default function Home() {
         </p>
         <a
           className={styles.contactButton}
-          href="mailto:hello@ceylongemco.lk?subject=Looking%20for%20a%20gem"
+          href="https://wa.me/94701152424"
         >
           Say hello <span aria-hidden="true">↗</span>
         </a>
